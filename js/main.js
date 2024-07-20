@@ -84,3 +84,90 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 
 });
+
+
+
+
+
+
+//-------------------------------backrond-----------------------//
+
+
+// let body = document.querySelector('body');
+// let title = document.querySelector('.title')
+// let link = document.querySelector('.link');
+// let linktwo = document.querySelector('.linktwo');
+// let up = document.querySelector('.up');
+// let down = document.querySelector('.down');
+// let text = document.querySelector('.text');
+// let btn = document.querySelector('.btn');
+// let btntwo = document.querySelector('.btntwo');
+// let img = document.querySelector('.img');
+
+// let changeColor = () => {
+//     body.style.backgroundColor = 'white';
+//     body.style.transition = "all 1s linear";
+//     body.style.boxShadow = "0px 0px 10px 5px rgba(0,0,0,0.1)";
+//     body.style.borderRadius = "10px";
+//     body.tranformition = "all 5s linear";
+//     body.style.padding = "30px";
+//     title.style.color = 'pink';
+//     link.style.color = 'pink';
+//     linktwo.style.color = 'pink';
+//     up.style.color = 'pink';
+//     down.style.color = 'pink';
+//     text.style.color = 'pink';
+//     btn.style.backgroundColor = 'pink';
+
+
+
+// }
+
+
+
+// let changeColors = () => {
+//     body.style.backgroundColor = 'whitesmoke';
+//     body.style.transition = "all 1s linear";
+
+//     body.style.padding = "0px";
+//     title.style.color = 'black';
+//     link.style.color = 'black';
+//     linktwo.style.color = 'black';
+//     up.style.color = 'black';
+//     down.style.color = 'black';
+//     text.style.color = 'black';
+//     btntwo.style.backgroundColor = 'black';
+//     btntwo.style.color = 'white';
+
+// }
+
+
+
+
+let body = document.querySelector('body');
+
+
+
+
+
+
+let changeColor = () => {
+
+    body.style.backgroundColor = '#323946';
+
+
+
+
+
+};
+
+
+
+
+
+
+let changeColors = () => {
+
+    body.style.backgroundColor = '#1f242d';
+
+};

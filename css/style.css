@@ -17,6 +17,7 @@
         --second-bg-color: #323946;
         --text-color: #fff;
         --main-color: #0ef;
+        /* --second-bg-color: #7c7a78; */
     }
     
     html {
@@ -45,6 +46,13 @@
         justify-content: space-between;
         align-items: center;
         z-index: 100;
+    }
+    
+    .boxxx {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     }
     
     .header.sticky {
@@ -581,5 +589,11 @@
         .about h2 {
             font-size: 30px;
             margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .home__img img {
+            display: none;
         }
     }
